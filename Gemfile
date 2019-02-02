@@ -16,6 +16,8 @@ end
 gem 'carrierwave'
 # Use devise for authentication
 gem 'devise'
+# Use gravtastic for gravatars
+gem 'gravtastic'
 # Use imagemagick for image reisizing
 gem 'mini_magick'
 # Use Puma as the app server
