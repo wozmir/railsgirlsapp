@@ -12,9 +12,11 @@ end
 group :production do
   gem 'pg'
 end
-# use carrierwave for file upload
+# Use carrierwave for file upload
 gem 'carrierwave'
-# user imagemagick for image reisizing
+# Use devise for authentication
+gem 'devise'
+# Use imagemagick for image reisizing
 gem 'mini_magick'
 # Use Puma as the app server
 gem 'puma', '~> 3.11'
